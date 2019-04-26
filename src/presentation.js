@@ -10,7 +10,7 @@ import {
   ListItem,
   Quote,
   Slide,
-  Text
+  Text,
 } from 'spectacle'
 // Import theme
 import createTheme from 'spectacle/lib/themes/default'
@@ -23,11 +23,11 @@ const theme = createTheme(
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
-    quartenary: '#CECECE'
+    quartenary: '#CECECE',
   },
   {
     primary: 'Montserrat',
-    secondary: 'Helvetica'
+    secondary: 'Helvetica',
   }
 )
 
@@ -64,7 +64,7 @@ export default class Presentation extends React.Component {
             Thank You!
           </Heading>
           <List>
-            <ListItem>My wife, Bekah</ListItem>
+            <ListItem>My wife's parents</ListItem>
             <ListItem>
               All StirTrek Organizers, Volunteers and Attendees
             </ListItem>
@@ -176,6 +176,11 @@ export default class Presentation extends React.Component {
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <BlockQuote>
             <Quote>"i can't watch 3 hours of video omg."</Quote>
+          </BlockQuote>
+        </Slide>
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <BlockQuote>
+            <Quote>"crap"</Quote>
           </BlockQuote>
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
